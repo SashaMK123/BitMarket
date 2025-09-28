@@ -8,6 +8,7 @@ header {
     padding:15px ;
     margin-bottom: 20px;
     display: flex;
+    align-items: center;
 }
 
 .button {
@@ -48,15 +49,17 @@ p {
 .info {
     flex-wrap: wrap;
     width: 1100px;
-    margin: 0px;
+    margin: 0px auto 0px auto;
     display: flex;
+    max-width: 1100px; 
 }
 
 article {
     background-color: white;
     padding:15px ;
     width: 400px;
-    margin:15px ;
+    margin:15px;
+    border:4px dashed #0048FF ;
 }
 
 .article-but {
@@ -66,6 +69,7 @@ article {
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
+    display: block;
 }
 
 footer {
@@ -80,4 +84,13 @@ footer a {
 
 footer p {
     font-size: 24px;
+    color: white;
+}
+
+article p {
+    text-align: center;
+}
+
+article h2 {
+    text-align: center;
 }
